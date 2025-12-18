@@ -137,11 +137,11 @@ const Hero: React.FC = () => {
         </div>
       </div>
 
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-50 animate-pulse">
-        <span className="text-[10px] font-mono uppercase tracking-widest">Scroll</span>
-        <div className="w-[1px] h-12 bg-gradient-to-b from-white to-transparent"></div>
-      </div>
+     {/* Scroll Indicator */}
+<div className="absolute bottom-10 right-10 flex flex-col items-center gap-2 opacity-50 animate-pulse">
+  <span className="text-[10px] font-mono uppercase tracking-widest">Desliza</span>
+  <div className="w-[1px] h-12 bg-gradient-to-b from-white to-transparent"></div>
+</div>
     </section>
   );
 };
