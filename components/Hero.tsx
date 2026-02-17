@@ -82,7 +82,7 @@ const Hero: React.FC = () => {
           <div className="absolute inset-0 bg-black/60 z-10 mix-blend-multiply"></div>
           <div className="absolute inset-0 bg-gradient-to-r from-black/95 via-black/60 to-transparent z-10"></div>
           <img 
-            src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2301&auto=format&fit=crop" 
+            src="/fondo.jpg" 
             alt="Corporate Strategy" 
             className="w-full h-full object-cover"
           />
@@ -98,7 +98,7 @@ const Hero: React.FC = () => {
           <div className="hero-subtitle flex items-center gap-4 mb-6 opacity-0">
             <div className="h-[2px] w-12 bg-brand-red shadow-[0_0_15px_rgba(230,30,37,0.8)]"></div>
             <p className="text-white font-mono text-xs md:text-sm uppercase tracking-[0.3em] font-bold">
-              Consultoría Política LATAM 2025
+              Consultoría Política LATAM 2026
             </p>
           </div>
 
