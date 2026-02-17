@@ -15,7 +15,7 @@ export const SOCIALS = {
   twitter: "@AccionPoliticaa",
   instagram: "@AccionPoliticaa",
   facebook: "ConsultoraAccionPolitica",
-  web: "www.accionpoliticalatam.com"
+  web: "consultoraaccionpolitica@gmail.com"
 };
 
 export const ABOUT_TEXT = "Somos una firma de consultoría política dedicada a asesorar a precandidatos, candidatos, gobernantes y partidos políticos con experiencia y éxito comprobado en América Latina y El Caribe.";
