@@ -3,12 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Acción Política | Estrategia y Comunicación</title>
+    
+    <title>Acción Política | Consultoría Estratégica y Comunicación en LATAM</title>
+    <meta name="description" content="Expertos en arquitectura política de alto nivel en LATAM. Estrategia electoral, inteligencia de datos y comunicación de precisión para ganar campañas y transformar líderes.">
+    <meta name="keywords" content="consultoría política LATAM, estrategia electoral, marketing político, comunicación política, inteligencia de datos campañas, Acción Política, gestión de crisis política, consultores políticos México, Colombia, política estratégica">
+    <link rel="canonical" href="https://www.accionpoliticalatam.com/" />
+    <meta name="author" content="Acción Política">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.accionpoliticalatam.com/">
+    <meta property="og:title" content="Acción Política | Estrategia & Poder en LATAM">
+    <meta property="og:description" content="Arquitectura política de alto nivel. Transformamos candidatos en líderes con datos y estrategia.">
+    <meta property="og:image" content="https://www.accionpoliticalatam.com/logo.svg">
+    <meta property="og:locale" content="es_LA">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Acción Política | Estrategia y Poder">
+    <meta property="twitter:image" content="https://www.accionpoliticalatam.com/logo.svg">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Acción Política",
+      "image": "https://www.accionpoliticalatam.com/logo.svg",
+      "url": "https://www.accionpoliticalatam.com/",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "LATAM"
+      },
+      "description": "Consultoría estratégica de alto nivel, comunicación política y arquitectura de datos para campañas electorales en Latinoamérica.",
+      "serviceType": ["Consultoría Política", "Estrategia Electoral", "Comunicación Política"]
+    }
+    </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600;800&family=Oswald:wght@400;500;700&display=swap" rel="stylesheet">
     
-    <!-- Tailwind CSS CDN for immediate preview -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -32,69 +65,41 @@
     </script>
 
     <style>
-      :root {
-        font-family: 'Manrope', system-ui, -apple-system, sans-serif;
-      }
-      html {
-        scroll-behavior: smooth;
-      }
-      body {
-        background-color: #020617;
-        color: #ffffff;
-        overflow-x: hidden;
-      }
-      .text-stroke {
-        -webkit-text-stroke: 1px rgba(255,255,255,0.2);
-        color: transparent;
-      }
-      /* Noise Overlay */
+      :root { font-family: 'Manrope', system-ui, -apple-system, sans-serif; }
+      html { scroll-behavior: smooth; }
+      body { background-color: #020617; color: #ffffff; overflow-x: hidden; }
+      .text-stroke { -webkit-text-stroke: 1px rgba(255,255,255,0.2); color: transparent; }
       .bg-noise {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        pointer-events: none;
-        z-index: 9999;
-        opacity: 0.03;
+        position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+        pointer-events: none; z-index: 9999; opacity: 0.03;
         background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
       }
-      /* Custom Scrollbar */
-      ::-webkit-scrollbar {
-        width: 8px;
-      }
-      ::-webkit-scrollbar-track {
-        background: #0F172A;
-      }
-      ::-webkit-scrollbar-thumb {
-        background: #334155;
-        border-radius: 4px;
-      }
-      ::-webkit-scrollbar-thumb:hover {
-        background: #E61E25;
-      }
+      ::-webkit-scrollbar { width: 8px; }
+      ::-webkit-scrollbar-track { background: #0F172A; }
+      ::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; }
+      ::-webkit-scrollbar-thumb:hover { background: #E61E25; }
     </style>
 
     <script type="importmap">
-{
-  "imports": {
-    "react": "https://esm.sh/react@18.3.1",
-    "react/jsx-runtime": "https://esm.sh/react@18.3.1/jsx-runtime",
-    "react-dom/client": "https://esm.sh/react-dom@18.3.1/client",
-    "react-dom": "https://esm.sh/react-dom@18.3.1",
-    "lucide-react": "https://esm.sh/lucide-react@0.344.0",
-    "gsap": "https://esm.sh/gsap@3.12.5",
-    "gsap/ScrollTrigger": "https://esm.sh/gsap@3.12.5/ScrollTrigger",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "gsap/": "https://aistudiocdn.com/gsap@^3.13.0/",
-    "vite": "https://aistudiocdn.com/vite@^7.2.2",
-    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1"
-  }
-}
-</script>
-  <link rel="stylesheet" href="/index.css">
-</head>
+    {
+      "imports": {
+        "react": "https://esm.sh/react@18.3.1",
+        "react/jsx-runtime": "https://esm.sh/react@18.3.1/jsx-runtime",
+        "react-dom/client": "https://esm.sh/react-dom@18.3.1/client",
+        "react-dom": "https://esm.sh/react-dom@18.3.1",
+        "lucide-react": "https://esm.sh/lucide-react@0.344.0",
+        "gsap": "https://esm.sh/gsap@3.12.5",
+        "gsap/ScrollTrigger": "https://esm.sh/gsap@3.12.5/ScrollTrigger",
+        "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+        "react/": "https://aistudiocdn.com/react@^19.2.0/",
+        "gsap/": "https://aistudiocdn.com/gsap@^3.13.0/",
+        "vite": "https://aistudiocdn.com/vite@^7.2.2",
+        "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1"
+      }
+    }
+    </script>
+    <link rel="stylesheet" href="/index.css">
+  </head>
   <body>
     <div id="root"></div>
     <div class="bg-noise"></div>
